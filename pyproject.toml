@@ -5,7 +5,6 @@ description = "Command-Line Face Blur Tool"
 authors = ["Gulmohar <92192914+vvihar@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "auto_blur", from = "." }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
