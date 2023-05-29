@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "auto-blur"
+version = "0.1.0"
+description = "Command-Line Face Blur Tool"
+authors = ["Gulmohar <92192914+vvihar@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "auto_blur", from = "." }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.7.0.72"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

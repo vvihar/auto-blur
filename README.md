@@ -5,7 +5,7 @@ All processing is done locally on your machine, and no data is sent to any third
 
 ## Requirements
 
-- Python 3.6 or above
+- Python 3.9 or above
 - OpenCV (installed via `pip install opencv-python`)
 - argparse (installed via `pip install argparse`)
 
