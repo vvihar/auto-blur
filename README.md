@@ -20,7 +20,7 @@ It is highly recommended to use a virtual environment to install the required pa
 ## Usage
 
 ```python
-python face_blur_cli.py image_path [--save-path SAVE_PATH] [--blur-level BLUR_LEVEL]
+python auto_blur_cli.py image_path [--save-path SAVE_PATH] [--blur-level BLUR_LEVEL]
 ```
 
 - `image_path`: Path to the input image file.
@@ -32,13 +32,13 @@ python face_blur_cli.py image_path [--save-path SAVE_PATH] [--blur-level BLUR_LE
 - Save the blurred image with a custom save path:
 
 ```python
-python face_blur_cli.py image.jpg --save-path blurred_image.jpg
+python auto_blur_cli.py image.jpg --save-path blurred_image.jpg
 ```
 
 - Adjust the blur level to 5 (default: 10):
 
 ```python
-python face_blur_cli.py image.jpg --blur-level 5
+python auto_blur_cli.py image.jpg --blur-level 5
 ```
 
 ## License
