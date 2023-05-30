@@ -45,7 +45,9 @@ if __name__ == "__main__":
     # Create the argument parser
     parser = argparse.ArgumentParser(description="Face Blur CLI Tool")
     parser.add_argument("image_path", help="Path to the image file")
-    parser.add_argument("--save-path", help="Optional path to save the blurred image")
+    parser.add_argument(
+        "--save-path", help="Optional path to save the blurred image"
+    )
     parser.add_argument(
         "--blur-level", type=int, default=10, help="Blur level (default: 10)"
     )
